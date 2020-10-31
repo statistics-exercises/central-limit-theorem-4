@@ -10,7 +10,7 @@ With that in mind remember that the sample variance is defined as:
 
 To complete the exercise you need to:
 
-1. Write a function called `norma`l that takes two variables `mu` (the expectation of the variable) and `sigma2` (the variance of the random variable) as input and that returns a normal random variable with expectation `mu` and variance `sigma2`.
+1. Write a function called `normal` that takes two variables `mu` (the expectation of the variable) and `sigma2` (the variance of the random variable) as input and that returns a normal random variable with expectation `mu` and variance `sigma2`.
 2. Set the first element of the list called `indices` equal to 2, the second element of the list called `indices` to 3 and so on.
 3. Set the second element of the list called `svariance` equal to a sample variance calculated by generating 2 normal random variables with parameters `expectation` and `variance`, the third element of the list `svariance` equal to a sample variance calculated by generating 3 normal random variables with parameters `expectation` and `variance`, set the fourth element of the list called `svariance` equal to a sample mean calculated by generating 4 normal random variables with parameters `expectation` and `variance` and so on until you have computed an sample by generating 200 normal random variables with parameters `expectation` and `varianc`e.
 
